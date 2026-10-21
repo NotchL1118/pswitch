@@ -1,0 +1,16 @@
+[package]
+name = "pswitch"
+version = "0.1.0"
+edition = "2021"
+description = "Switch model providers for Claude Code and Codex by editing their config files directly"
+license = "MIT"
+
+[dependencies]
+anyhow = "1"
+clap = { version = "4", features = ["derive"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = { version = "1", features = ["preserve_order"] }
+toml_edit = "0.22"
+
+[dev-dependencies]
+tempfile = "3"
