@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="340" viewBox="0 0 980 340">
+<rect width="980" height="340" rx="10" fill="#1e1e2e"/>
+<circle cx="22" cy="20" r="6" fill="#f38ba8"/><circle cx="42" cy="20" r="6" fill="#f9e2af"/><circle cx="62" cy="20" r="6" fill="#a6e3a1"/>
+<text x="490.0" y="25" fill="#9399b2" font-family="Menlo,Consolas,monospace" font-size="13" text-anchor="middle">pswitch — back to official &amp; restore</text>
+<text x="20" y="60" font-family="Menlo,Consolas,DejaVu Sans Mono,monospace" font-size="13.5" xml:space="preserve"><tspan fill="#a6e3a1">$</tspan> <tspan fill="#cdd6f4" font-weight="bold">pswitch use codex official</tspan></text>
+<text x="20" y="80" font-family="Menlo,Consolas,DejaVu Sans Mono,monospace" font-size="13.5" xml:space="preserve"><tspan fill="#89b4fa">codex -&gt; official</tspan></text>
+<text x="20" y="100" font-family="Menlo,Consolas,DejaVu Sans Mono,monospace" font-size="13.5" xml:space="preserve"><tspan fill="#6c7086">Restart Codex for it to take effect.</tspan></text>
+<text x="20" y="120" font-family="Menlo,Consolas,DejaVu Sans Mono,monospace" font-size="13.5" xml:space="preserve"><tspan fill="#a6e3a1">$</tspan> <tspan fill="#cdd6f4" font-weight="bold">pswitch current</tspan></text>
+<text x="20" y="140" font-family="Menlo,Consolas,DejaVu Sans Mono,monospace" font-size="13.5" xml:space="preserve"><tspan fill="#89b4fa">claude: myrelay</tspan></text>
+<text x="20" y="160" font-family="Menlo,Consolas,DejaVu Sans Mono,monospace" font-size="13.5" xml:space="preserve"><tspan fill="#89b4fa">codex: official</tspan></text>
+<text x="20" y="180" font-family="Menlo,Consolas,DejaVu Sans Mono,monospace" font-size="13.5" xml:space="preserve"><tspan fill="#a6e3a1">$</tspan> <tspan fill="#cdd6f4" font-weight="bold">cat ~/.codex/auth.json</tspan></text>
+<text x="20" y="200" font-family="Menlo,Consolas,DejaVu Sans Mono,monospace" font-size="13.5" xml:space="preserve"><tspan fill="#bac2de">{&quot;auth_mode&quot;:&quot;chatgpt&quot;,&quot;tokens&quot;:{&quot;access_token&quot;:&quot;eyJ...&quot;}}</tspan></text>
+<text x="20" y="220" font-family="Menlo,Consolas,DejaVu Sans Mono,monospace" font-size="13.5" xml:space="preserve"><tspan fill="#bac2de"></tspan></text>
+<text x="20" y="240" font-family="Menlo,Consolas,DejaVu Sans Mono,monospace" font-size="13.5" xml:space="preserve"><tspan fill="#a6e3a1">$</tspan> <tspan fill="#cdd6f4" font-weight="bold">pswitch restore</tspan></text>
+<text x="20" y="260" font-family="Menlo,Consolas,DejaVu Sans Mono,monospace" font-size="13.5" xml:space="preserve"><tspan fill="#89b4fa">restored ~/.claude/settings.json</tspan></text>
+<text x="20" y="280" font-family="Menlo,Consolas,DejaVu Sans Mono,monospace" font-size="13.5" xml:space="preserve"><tspan fill="#89b4fa">restored ~/.codex/config.toml</tspan></text>
+<text x="20" y="300" font-family="Menlo,Consolas,DejaVu Sans Mono,monospace" font-size="13.5" xml:space="preserve"><tspan fill="#89b4fa">restored ~/.codex/auth.json</tspan></text>
+</svg>
